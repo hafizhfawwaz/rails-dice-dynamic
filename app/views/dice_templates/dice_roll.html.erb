@@ -1,0 +1,9 @@
+<h1><%= @num_dice %>d<%= @num_side %></h1>
+
+<ul>
+    <% @draws.each do |a_draw| %>
+      <li>
+        <%= a_draw %>
+      </li>
+    <% end %>
+  </ul>
